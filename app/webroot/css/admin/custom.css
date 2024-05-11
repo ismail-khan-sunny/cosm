@@ -1,0 +1,78 @@
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    /*line-height: 0.2;
+    padding: 10px;*/
+    vertical-align: middle;
+}
+
+.margin-bottom-20{
+	margin-bottom:20px;
+}
+
+.margin-bottom-10{
+	margin-bottom:10px;
+}
+
+.tab-box{
+	border-bottom:1px solid #ddd;
+	border-left:1px solid #ddd;
+	border-right:1px solid #ddd;
+	min-height:690px;
+}
+
+.multiple-select{
+	height:108px !important;
+}
+
+.process-label {
+    float: left;
+    width: 125px;
+}
+
+.date label{
+	display:block;
+}
+
+.date select{
+	width:32%;
+	display:inline;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    cursor: text;
+}
+
+.btn-content{
+	margin-top:25px;
+}
+
+.modal-content{
+	padding:20px;
+}
+
+
+.display-image img{
+	width:150px;
+	margin:auto;
+}
+
+.hover-cross span{
+	position:absolute;
+	right:15%;
+	top:5px;
+	display:none;
+	font-size: 24px;
+	color:red;
+	cursor: pointer;
+}
+
+.hover-cross:hover span{
+	display:block;
+}
+
+.error-message{
+	color:#D73C2B;
+}
+
+input[type="reset"]{
+	margin-left:5px;
+}

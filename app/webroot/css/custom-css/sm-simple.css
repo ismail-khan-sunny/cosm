@@ -1,0 +1,215 @@
+
+.sm-simple {
+    background: white none repeat scroll 0 0;
+    border: 1px solid #bbbbbb;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+.sm-simple a, .sm-simple a:hover, .sm-simple a:focus, .sm-simple a:active {
+    color: #555555;
+    font-family: "Lucida Sans Unicode","Lucida Sans","Lucida Grande",Arial,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 17px;
+    padding: 13px 58px 13px 20px;
+    text-decoration: none;
+}
+.sm-simple a.current {
+    background: #555555 none repeat scroll 0 0;
+    color: white;
+}
+.sm-simple a.disabled {
+    color: #cccccc;
+}
+.sm-simple a span.sub-arrow {
+    background: rgba(0, 0, 0, 0.08) none repeat scroll 0 0;
+    font: bold 14px/34px monospace !important;
+    height: 34px;
+    left: auto;
+    margin-top: -17px;
+    overflow: hidden;
+    position: absolute;
+    right: 4px;
+    text-align: center;
+    text-shadow: none;
+    top: 50%;
+    width: 34px;
+}
+.sm-simple a.highlighted span.sub-arrow::before {
+    content: "-";
+    display: block;
+}
+.sm-simple li {
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+.sm-simple > li:first-child {
+    border-top: 0 none;
+}
+.sm-simple ul {
+    background: rgba(179, 179, 179, 0.1) none repeat scroll 0 0;
+}
+.sm-simple ul a, .sm-simple ul a:hover, .sm-simple ul a:focus, .sm-simple ul a:active {
+    border-left: 8px solid transparent;
+    font-size: 14px;
+}
+.sm-simple ul ul a, .sm-simple ul ul a:hover, .sm-simple ul ul a:focus, .sm-simple ul ul a:active {
+    border-left: 16px solid transparent;
+}
+.sm-simple ul ul ul a, .sm-simple ul ul ul a:hover, .sm-simple ul ul ul a:focus, .sm-simple ul ul ul a:active {
+    border-left: 24px solid transparent;
+}
+.sm-simple ul ul ul ul a, .sm-simple ul ul ul ul a:hover, .sm-simple ul ul ul ul a:focus, .sm-simple ul ul ul ul a:active {
+    border-left: 32px solid transparent;
+}
+.sm-simple ul ul ul ul ul a, .sm-simple ul ul ul ul ul a:hover, .sm-simple ul ul ul ul ul a:focus, .sm-simple ul ul ul ul ul a:active {
+    border-left: 40px solid transparent;
+}
+@media (min-width: 768px) {
+.sm-simple ul {
+    position: absolute;
+}
+.sm-simple li {
+    float: left;
+}
+.sm-simple.sm-rtl li {
+    float: right;
+}
+.sm-simple ul li, .sm-simple.sm-rtl ul li, .sm-simple.sm-vertical li {
+    float: none;
+}
+.sm-simple a {
+    white-space: nowrap;
+}
+.sm-simple ul a, .sm-simple.sm-vertical a {
+    white-space: normal;
+}
+.sm-simple .sm-nowrap > li > a, .sm-simple .sm-nowrap > li > *:not(ul) a {
+    white-space: nowrap;
+}
+.sm-simple {
+    background: #0071ad none repeat scroll 0 0;
+}
+.sm-simple a, .sm-simple a:hover, .sm-simple a:focus, .sm-simple a:active, .sm-simple a.highlighted {
+    color: #fff;
+    padding: 9px 11px;
+}
+.sm-simple a:hover, .sm-simple a:focus, .sm-simple a:active, .sm-simple a.highlighted {
+    background: #0071ad none repeat scroll 0 0;
+    color: #fff;
+}
+.sm-simple a.current {
+    background: #555555 none repeat scroll 0 0;
+    color: white;
+}
+.sm-simple a.disabled {
+    background: white none repeat scroll 0 0;
+    color: #cccccc;
+}
+.sm-simple a.has-submenu {
+    padding-right: 29px;
+}
+.sm-simple a span.sub-arrow {
+    background: transparent none repeat scroll 0 0;
+    font: 14px/16px monospace !important;
+    height: 16px;
+    margin-top: -8px;
+    right: 20px;
+    top: 50%;
+    width: 8px;
+}
+.sm-simple a.highlighted span.sub-arrow::before {
+    display: none;
+}
+.sm-simple > li {
+    border-left: 1px solid #eeeeee;
+    border-top: 0 none;
+}
+.sm-simple > li:first-child {
+    border-left: 0 none;
+}
+.sm-simple ul {
+    background: #0071ad none repeat scroll 0 0;
+    border: 1px solid #bbbbbb;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+.sm-simple ul a {
+    border: 0 none !important;
+}
+.sm-simple ul a.has-submenu {
+    padding-right: 20px;
+}
+.sm-simple ul a span.sub-arrow {
+    margin-left: -12px;
+    right: auto;
+}
+.sm-simple ul > li {
+    border-left: 0 none;
+    border-top: 1px solid #eeeeee;
+}
+.sm-simple ul > li:first-child {
+    border-top: 0 none;
+}
+.sm-simple span.scroll-up, .sm-simple span.scroll-down {
+    background: white none repeat scroll 0 0;
+    display: none;
+    height: 20px;
+    overflow: hidden;
+    position: absolute;
+    visibility: hidden;
+}
+.sm-simple span.scroll-up-arrow, .sm-simple span.scroll-down-arrow {
+    border-color: transparent transparent #555555;
+    border-style: dashed dashed solid;
+    border-width: 8px;
+    height: 0;
+    left: 50%;
+    margin-left: -8px;
+    overflow: hidden;
+    position: absolute;
+    top: -2px;
+    width: 0;
+}
+.sm-simple span.scroll-down-arrow {
+    border-color: #555555 transparent transparent;
+    border-style: solid dashed dashed;
+    top: 6px;
+}
+.sm-simple.sm-rtl a.has-submenu {
+    padding-left: 32px;
+    padding-right: 20px;
+}
+.sm-simple.sm-rtl a span.sub-arrow {
+    left: 20px;
+    right: auto;
+}
+.sm-simple.sm-rtl.sm-vertical a.has-submenu {
+    padding: 11px 20px;
+}
+.sm-simple.sm-rtl.sm-vertical a span.sub-arrow {
+    margin-right: -12px;
+    right: 20px;
+}
+.sm-simple.sm-rtl > li:first-child {
+    border-left: 1px solid #eeeeee;
+}
+.sm-simple.sm-rtl > li:last-child {
+    border-left: 0 none;
+}
+.sm-simple.sm-rtl ul a.has-submenu {
+    padding: 11px 20px;
+}
+.sm-simple.sm-rtl ul a span.sub-arrow {
+    margin-right: -12px;
+    right: 20px;
+}
+.sm-simple.sm-vertical a span.sub-arrow {
+    margin-left: -12px;
+    right: auto;
+}
+.sm-simple.sm-vertical li {
+    border-left: 0 none;
+    border-top: 1px solid #eeeeee;
+}
+.sm-simple.sm-vertical > li:first-child {
+    border-top: 0 none;
+}
+}

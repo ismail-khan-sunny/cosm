@@ -1,0 +1,511 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/*=======================================================================
+	Add media quries for customise responsive for this theme 
+=======================================================================*/
+
+/*--------------------------------------------
+
+ smartphones, iPhone, portrait 480x320 phones  
+
+-----------------------------------------------    */
+@media (min-width:320px) and (max-width:480px) {
+.navigation-logo-bar {
+	width: 98% !important;
+		margin-top:30px;
+	
+}
+.logo {
+	left:0;}
+
+
+.mobile-menu-btn {
+	margin-right: 20px;
+}
+.mobile-menu {
+	background: #114B98;
+	position: absolute;
+	width: 200px !important;
+	float: right;
+	right: 50px;
+	border: 0 none;
+	padding: 0;
+	z-index:99999999;
+}
+.mobile-menu ul {
+	padding: 0;
+	margin: 0 !important;
+	width: 100%;
+}
+.mobile-menu ul li {
+	padding: 0;
+	margin: 0 !important;
+	width: 100%;
+	background: none !important;
+}
+.mobile-menu ul.menu li a {
+	line-height: 40px;
+	background: none !important;
+}
+.mobile-menu ul li a:hover, .mobile-menu ul li a.active {
+	background: #1471D2 !important;
+}
+.blog {
+	width: 20%;
+}
+footer p {
+	text-align: center !important;
+}
+.footer-text {
+	margin-left: -10px;
+	margin-right: -10px;
+}
+.footer-menu {
+	float: none;
+	padding: 0;
+}
+.footer-menu li {
+	display: inline-block;
+	float: none;
+	text-align: center;
+}
+.widget {
+	margin-bottom: 20px;
+}
+.bopil-slider-bar {
+	padding-right: 10px;
+}
+.slider-bar {
+	padding-left: 10px;
+}
+.bopil-bar {
+	padding-right: 10px;
+}
+.customer-support-bar {
+	padding-left: 10px;
+}
+.widget-header h3, .widget-content, .widget-content li, .bopil .widget-content p, .customer-support .widget-header h3, .widget-img, .bopil .widget-header h2 {
+	text-align: center;
+}
+.slide-caption {
+	width: 100%;
+}
+.news {
+	margin-bottom: 0;
+	margin-top: 20px;
+}
+.news .widget-header {
+	margin-left: 0;
+}
+.bopil {
+	height: 250px;
+}
+.customer-support {
+	height: 270px;
+}
+.news .widget-header {
+	width: 20%;
+	margin-right: 3%;
+}
+.news .widget-content {
+	float: right;
+	width: 77%;
+}
+.news .widget-content p {
+	padding: 0;
+}
+
+.widget-content .products-small li {
+	padding:0 6px 13px;}
+}
+
+@media (max-width:320px) {
+footer p {
+	text-align: center !important;
+}
+.footer-text {
+	margin-left: -10px;
+	margin-right: -10px;
+}
+.footer-menu {
+	float: none;
+	padding: 0;
+}
+.footer-menu li {
+	display: inline-block;
+	float: none;
+	text-align: center;
+}
+.widget {
+	margin-bottom: 20px;
+}
+.slider-bar {
+	padding-left: 10px;
+}
+.bopil-bar {
+	padding-right: 10px;
+}
+.customer-support-bar {
+	padding-left: 10px;
+}
+.bopil-slider-bar {
+	padding-right: 10px;
+}
+.widget-header h3, .widget-content, .widget-content li, .bopil .widget-content p, .customer-support .widget-header h3, .widget-img, .bopil .widget-header h2 {
+	text-align: center;
+}
+.news {
+	margin-bottom: 0;
+	margin-top: 20px;
+}
+.news .widget-header {
+	margin-left: 0;
+}
+}
+
+/*--------------------------------------------
+
+ portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide.  
+
+-----------------------------------------------    */
+@media (min-width:481px) and (max-width:767px) {
+header {
+	margin-bottom: 20px;
+}
+.navigation-logo-bar {
+	width: 98% !important;
+	margin-top:30px;
+}
+.mobile-menu-btn {
+	margin-right: 20px;
+}
+.mobile-menu {
+	background: #114B98;
+	position: absolute;
+	width: 200px !important;
+	float: right;
+	right: 50px;
+	border: 0 none;
+	padding: 0;
+}
+.mobile-menu ul {
+	padding: 0;
+	margin: 0 !important;
+	width: 100%;
+}
+.mobile-menu ul li {
+	padding: 0;
+	margin: 0 !important;
+	width: 100%;
+	background: none !important;
+}
+.mobile-menu ul.menu li a {
+	line-height: 40px;
+	background: none !important;
+}
+.mobile-menu ul li a:hover, .mobile-menu ul li a.active {
+	background: #1471D2 !important;
+}
+.blog {
+	width: 20%;
+}
+.footer-text {
+	margin-left: -10px;
+	margin-right: -10px;
+}
+footer p {
+	text-align: center !important;
+	padding: 0;
+}
+.footer-menu {
+	float: none;
+	padding: 0;
+}
+.footer-menu li {
+	display: inline-block;
+	float: none;
+	text-align: center;
+}
+.footer-menu li a {
+	display: inline;
+}
+.widget {
+	margin-bottom: 20px;
+}
+.bopil-slider-bar {
+	padding-right: 10px;
+}
+.slider-bar {
+	padding-left: 10px;
+}
+.bopil-bar {
+	padding-right: 10px;
+}
+.customer-support-bar {
+	padding-left: 10px;
+}
+.customer-support .widget-header {
+	text-align: center;
+}
+.bopil {
+	height: 160px;
+}
+.customer-support {
+	height: 265px !important;
+}
+.widget-header h3, .widget-content, .widget-content li, .bopil .widget-content p, .customer-support .widget-header h3, .widget-img, .bopil .widget-header h2 {
+	text-align: center;
+}
+.widget-content ul.corporate-office li.mail, .widget-content ul.corporate-office li.address, .widget-content ul.corporate-office li.phone {
+	background: none;
+	padding-left: 0;
+}
+.carousel-inner .item.active {
+	background: blue;
+}
+#banner-slider .carousel-inner .item img {
+	width: 767px;
+	height: auto;
+}
+.news {
+	margin-bottom: 0;
+	margin-top: 20px;
+}
+.news .widget-header {
+	margin-left: 0;
+}
+}
+
+/*--------------------------------------------
+
+ portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones  
+
+-----------------------------------------------    */
+@media (min-width: 768px) and (max-width:990px) {
+header {
+	margin-bottom: 20px;
+}
+.navigation-logo-bar {
+	width: 98% !important;
+}
+.navigation ul.menu {
+	margin-left: 210px;
+}
+.logo {
+}
+.navigation ul.menu li a {
+	font-size: 13px;
+	padding: 0 20px;
+}
+.blog {
+	margin-right: 1%;
+}
+.bopil {
+	padding: 10px;
+}
+.bopil .widget-header {
+	margin: 0;
+	padding: 0 0 5px 0;
+}
+.bopil .widget-header h2 {
+	font-size: 16px;
+	margin-bottom: 0;
+}
+.bopil .widget-content p {
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+.footer-menu li {
+	padding: 0 10px;
+}
+.widgets {
+	padding: 10px 10px 0;
+}
+.bopil {
+	height: 207px;
+}
+.customer-support {
+	height: 236px !important;
+}
+.products {
+	padding: 0 5px;
+}
+.products .widget-header {
+	padding: 0 0 15px 5px;
+}
+.widget-content .products-small li a img {
+	width: 46px;
+}
+.widget-content .products-small li {
+	padding: 0 5px 10px;
+}
+.video img {
+	height: auto;
+	max-width: 100%;
+}
+.widget-content li {
+	line-height: 15px;
+	padding: 4px 0;
+}
+.widget-content ul.corporate-office li.phone {
+	background: url("../img/contact-icons.png") no-repeat scroll 0 10px rgba(0, 0, 0, 0);
+	padding-left: 30px;
+}
+.widget-content ul.corporate-office li.address {
+	background: url("../img/contact-icons.png") no-repeat scroll 0 -26px rgba(0, 0, 0, 0);
+	padding-left: 30px;
+}
+.widget-content ul.corporate-office li.mail {
+	background: url("../img/contact-icons.png") no-repeat scroll 0 -80px rgba(0, 0, 0, 0);
+	padding-left: 30px;
+}
+.widget-img img {
+	height: 108px;
+}
+.customer-support {
+	padding: 10px !important;
+}
+}
+
+/*--------------------------------------------
+
+tablet, landscape iPad, lo-res laptops ands desktops 
+
+-----------------------------------------------    */
+@media only screen and (min-width:992px) and (max-width:1024px) {
+.navigation-logo-bar {
+	width: 98% !important;
+	margin: 0 auto;
+	display: block;
+}
+.logo {
+	background: url(../img/bopil.png) center no-repeat;
+	width: 167px;
+	height: 140px;
+	position: absolute;
+	left: 35px;
+	top: -25px;
+	z-index: 99999;
+}
+.shadow-left {
+	background: url(../img/shadow-left.png) no-repeat 100% 182% !important;
+	bottom: 3px;
+	height: 17px;
+	position: absolute;
+	left: 0;
+	width: 365px;
+	z-index: 1;
+}
+.shadow-right {
+	background: url("../img/shadow-right.png") no-repeat scroll 100% 182% rgba(0, 0, 0, 0) !important;
+	bottom: 3px;
+	height: 17px;
+	position: absolute;
+	right: 0;
+	width: 365px;
+	z-index: 1;
+}
+.widget-content .products-small li {
+	border: 0 none !important;
+	float: left;
+	margin: 0;
+	padding: 0 8px 13px;
+}
+.bopil .widget-header h2 {
+	font-size: 23px;
+	margin-bottom: 0;
+}
+.carousel-inner .item img {
+	min-height: 275px;
+}
+.footer-menu li {
+	padding: 0 10px;
+}
+.widgets {
+	padding: 20px 20px 0;
+}
+.news .widget-header {
+	margin-left: 24px;
+}
+}
+
+/*--------------------------------------------
+
+big landscape tablets, laptops, and desktops 
+
+-----------------------------------------------    */
+@media (min-width:1025px) and (max-width:1200px) {
+.navigation-logo-bar {
+	width: 98% !important;
+	margin: 0 auto;
+	display: block;
+}
+.logo {
+	background: url(../img/bopil.png) center no-repeat;
+	width: 167px;
+	height: 140px;
+	position: absolute;
+	left: 35px;
+	top: -25px;
+	z-index: 99999;
+}
+.shadow-left {
+	background: url(../img/shadow-left.png) no-repeat 100% 182% !important;
+	bottom: 3px;
+	height: 17px;
+	position: absolute;
+	left: 0;
+	width: 365px;
+	z-index: 1;
+}
+.shadow-right {
+	background: url("../img/shadow-right.png") no-repeat scroll 100% 182% rgba(0, 0, 0, 0) !important;
+	bottom: 3px;
+	height: 17px;
+	position: absolute;
+	right: 0;
+	width: 365px;
+	z-index: 1;
+}
+.widget-content .products-small li {
+	border: 0 none !important;
+	float: left;
+	margin: 0;
+	padding: 0 9px 13px;
+}
+.news .widget-header {
+	margin-left: 24px;
+}
+.carousel-caption {
+	left: 200px;
+}
+.bopil .widget-header h2 {
+	font-size: 23px;
+}
+.carousel-inner .item img {
+	min-height: 275px;
+}
+}
+
+/*--------------------------------------------
+
+hi-res laptops and desktops
+
+-----------------------------------------------    */
+@media (min-width:1200px) {
+.news .widget-header {
+	margin-left: 26px;
+}
+}
+
+/*--------------------------------------------
+	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+}
